@@ -1,0 +1,3 @@
+proxy:
+  - com.xx.xx.PayServiceProxy
+  - com.xx.xx.PayServiceTimeProxy
