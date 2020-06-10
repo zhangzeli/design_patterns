@@ -13,7 +13,7 @@ class Child {
     public void  wekeup(){
         cry = true;
         dad.feed();
-        dog.Wang();
+        dog.wang();
         mum.hug();
     }
 }
@@ -31,13 +31,14 @@ class Mum{
 }
 
 class Dog{
-    public void Wang(){
+    public void wang(){
         System.out.println("dog wang ...");
     }
 }
 
 public class Main{
     public static void main(String[] args) {
-
+        Child child = new Child();
+        child.wekeup();
     }
 }
